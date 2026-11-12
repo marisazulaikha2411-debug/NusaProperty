@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+}
+
+container-site {
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image:
+     linear-gradient(90deg,
+     rgba(5, 25, 40, 0.94) 0%,
+     rgba(5, 25, 40, 0.78) 35%,
+     rgba(5, 25, 40, 0.38) 100%),
+    url('asset/hero-villa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-link, .navbar-brand {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero-content {
+    color: #fff;
+    max-width: 1100px;
+    margin: auto;
+    height: 100vh;
+    line-height: 1.1;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.hero-title span {
+    color: #efbd87;
+}
+
+.hero-subtitle {
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 1.65;
+    font-weight: 400;
+}
+
+
+.about-property {
+    background: #f7f8fa;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.property-image img {
+    height: 530px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.customer-badge {
+    position: absolute;
+    bottom: 28px;
+    left: 28px;
+    background: #fff;
+    padding: 18px 26px;
+    border-radius: 18px;
+}
+
+.customer-badge h4 {
+    color: #194968;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.customer-badge p {
+    color: #8193a2;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.property-content h2 {
+    color: #194968;
+    font-size: 43px;
+    line-height: 1.15;
+}
+
+.property-content p {
+    color: #8495a4;
+    font-size: 16px;
+    line-height: 1.85;
+    margin-bottom: 22px;
+}
+
+
+.property-benefits li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    color: #36556a;
+    font-size: 15px;
+}
+
+.property-benefits li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #d69a61;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.property-button {
+    background: #194968;
+    color: white;
+    padding: 17px 38px;
+    border-radius: 50px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 8px 20px rgba(25, 73, 104, 0.2);
+    transition: 0.3s;
+}
+
+.property-button:hover {
+    background: #12364f;
+    color: white;
+    transform: translateY(-3px);
+}
+
+
+
+/* 3 */
+
+
+.contact-heading {
+    margin-bottom: 45px;
+}
+
+.contact-heading h2 {
+    color: #194968;
+    font-size: 36px;
+    font-weight: 750;
+    margin-bottom: 15px;
+}
+
+.contact-heading p {
+    color: #8495a4;
+    font-size: 15px;
+    margin: 0;
+    line-height: 1.7;
+}
+
+.contact-card {
+    background: #ffffff;
+    border-radius: 21px;
+    border: 1px solid #edf0f3;
+    box-shadow: 0 15px 40px rgba(25, 73, 104, 0.08);
+}
+
+/* g */
+
+/* 2 */
+
+
+.contact-icon i {
+    color: #194968;
+    font-size: 24px;
+}
+
+.contact-card h5 {
+    color: #194968;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.contact-card p {
+    color: #8495a4;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.contact-card a {
+    color: #194968;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    color: #2e83aa;
+}
+
+
+/* ini bagian footer */
+
+.footer-property {
+    background: #194968;
+    color: #ffffff;
+    padding: 55px 0 20px;
+}
+
+.footer-content {
+    padding-bottom: 30px;
+}
+
+
+.footer-brand {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-brand i {
+    font-size: 22px;
+}
+
+/* 4 */
+
+.footer-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #c2d1dd;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.footer-links a {
+    color: #c2d1dd;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+.footer-contact i,
+.footer-social i {
+    font-size: 18px;
+    color: #b5c8d6;
+    flex-shrink: 0;
+}
+
+.footer-contact li {
+    line-height: 1.6;
+}
+
+
+.footer-social li {
+    align-items: center;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #aebfce;
+    font-size: 14px;
+    margin: 0;
+}
